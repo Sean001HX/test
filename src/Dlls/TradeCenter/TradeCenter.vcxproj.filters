@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{73839698-064c-4875-b296-1d3ec7489578}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\define">
+      <UniqueIdentifier>{cdb61494-ad48-4eab-b66b-bf1d4efb63a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\utility">
+      <UniqueIdentifier>{8e97921b-ae89-4425-a879-fb21f87b618c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\include">
+      <UniqueIdentifier>{974883ff-4ea9-4286-81f1-b1d67d7b4298}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application">
+      <UniqueIdentifier>{f102897d-132a-4e08-9802-232e1f67a56b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Handler">
+      <UniqueIdentifier>{85528b9a-06c9-4c22-a86d-4d4b1bd05d46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SyncTrade">
+      <UniqueIdentifier>{cb5007c5-63b9-4d1e-97eb-36895d998f51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SimulateTrade">
+      <UniqueIdentifier>{fd69bbb5-e0bb-49af-ba41-102f218b8216}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SyncTrade\TcpListen">
+      <UniqueIdentifier>{4b82a1ea-c5e8-4086-8f3f-2e533604cbaa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ctrade.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TradeCenter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Handler\orderhandler.cpp">
+      <Filter>Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="SimulateTrade\SimulateOrde.cpp">
+      <Filter>SimulateTrade</Filter>
+    </ClCompile>
+    <ClCompile Include="Handler\tradehandler.cpp">
+      <Filter>Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="SyncTrade\SyncOrde.cpp">
+      <Filter>SyncTrade</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\define\struct_base.cpp">
+      <Filter>Common\define</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\define\struct_extern.cpp">
+      <Filter>Common\define</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\utility\sync.cpp">
+      <Filter>Common\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\utility\utility_fun.cpp">
+      <Filter>Common\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Handler\positionhandler.cpp">
+      <Filter>Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="Handler\orderlistmanager..cpp">
+      <Filter>Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="Handler\tradelistmanager.cpp">
+      <Filter>Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="Handler\positionlistmanager.cpp">
+      <Filter>Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\servermgrbase.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\chinafutureservermgr.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\foreignfutureservermgr.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\stockservermgr.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Handler\quotehandler.cpp">
+      <Filter>Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="Handler\quotelistmanager.cpp">
+      <Filter>Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\define\ystruct_define.cpp">
+      <Filter>Common\define</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\TradeFeeManager.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\RiskControlManager.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\SettleManagerThread.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\utility\asioservice.cpp">
+      <Filter>Common\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\GlobalDataManager.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\ForbidTradeManager.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\PositionRateManager.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="SyncTrade\TcpListen\TcpCallBack.cpp">
+      <Filter>SyncTrade\TcpListen</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\handler_taskmsg.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\taskmsg.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\taskmsg_order_mgr.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalLock.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ctrade.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Handler\orderhandler.h">
+      <Filter>Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="SimulateTrade\SimulateOrder.h">
+      <Filter>SimulateTrade</Filter>
+    </ClInclude>
+    <ClInclude Include="Handler\tradehandler.h">
+      <Filter>Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="SyncTrade\SyncOrder.h">
+      <Filter>SyncTrade</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\define\params_declare.h">
+      <Filter>Common\define</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\define\protocol_error.h">
+      <Filter>Common\define</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\define\struct_base.h">
+      <Filter>Common\define</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\define\struct_declare.h">
+      <Filter>Common\define</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\define\struct_extern.h">
+      <Filter>Common\define</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\include\TradeCenter\TradeCenter.h">
+      <Filter>Common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\utility\workqueue.h">
+      <Filter>Common\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\utility\command.h">
+      <Filter>Common\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\utility\dispatcher_core.h">
+      <Filter>Common\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\utility\instance.h">
+      <Filter>Common\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\utility\instance_shared_from_this.h">
+      <Filter>Common\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\utility\pointerdef.h">
+      <Filter>Common\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\utility\rwmutex.h">
+      <Filter>Common\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\utility\scopeguard.h">
+      <Filter>Common\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\utility\sync.h">
+      <Filter>Common\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\utility\ThisPtrHolder.h">
+      <Filter>Common\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\utility\thread_core.h">
+      <Filter>Common\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\utility\utility_fun.h">
+      <Filter>Common\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Application\trade_handler_declare.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Handler\positionhandler.h">
+      <Filter>Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="Handler\orderlistmanager.h">
+      <Filter>Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="Handler\tradelistmanager.h">
+      <Filter>Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="Handler\positionlistmanager.h">
+      <Filter>Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="Application\servermgrbase.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Application\chinafutureservermgr.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Application\foreignfutureservermgr.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Application\stockservermgr.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Handler\quotehandler.h">
+      <Filter>Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="Handler\quotelistmanager.h">
+      <Filter>Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\define\ystruct_define.h">
+      <Filter>Common\define</Filter>
+    </ClInclude>
+    <ClInclude Include="Application\TradeFeeManager.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Application\RiskControlManager.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Application\SettleManagerThread.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\utility\timer_queue.h">
+      <Filter>Common\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\utility\asioservice.h">
+      <Filter>Common\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Application\GlobalDataManager.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Application\ForbidTradeManager.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Application\PositionRateManager.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="SyncTrade\TcpListen\trade_bussness_struct_def.h">
+      <Filter>SyncTrade\TcpListen</Filter>
+    </ClInclude>
+    <ClInclude Include="SyncTrade\TcpListen\TcpCallBack.h">
+      <Filter>SyncTrade\TcpListen</Filter>
+    </ClInclude>
+    <ClInclude Include="Application\handler_taskmsg.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Application\taskmsg.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Application\taskmsg_declare.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Application\taskmsg_order_mgr.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\include\StockApiManager\StockApiManager.h">
+      <Filter>Common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalLock.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

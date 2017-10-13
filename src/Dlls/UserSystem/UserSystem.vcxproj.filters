@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{8bf30dce-d8d5-4e93-b645-c3c4aea79d37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\define">
+      <UniqueIdentifier>{9c478ff2-0ae8-4bcc-8d4b-bd8c6b92c1a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\include">
+      <UniqueIdentifier>{283988fe-94f9-4679-ab09-76820a7283b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\utility">
+      <UniqueIdentifier>{ef82a8d1-5b0b-479f-9872-760bc0353af4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application">
+      <UniqueIdentifier>{136fcb7c-d86b-450f-98ca-5b103d5b1b90}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Common\utility\instance.h">
+      <Filter>Common\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="UserSystemImpl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\define\params_declare.h">
+      <Filter>Common\define</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\define\protocol_error.h">
+      <Filter>Common\define</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\define\struct_base.h">
+      <Filter>Common\define</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\define\struct_declare.h">
+      <Filter>Common\define</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\define\struct_extern.h">
+      <Filter>Common\define</Filter>
+    </ClInclude>
+    <ClInclude Include="Application\AgentUserMgr.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Application\FirmUserMgr.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Application\InsititutionUserMgr.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Application\ManagerUserMgr.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Application\TradeUserMgr.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\include\UserSystem\UserSystem.h">
+      <Filter>Common\include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="UserSystem.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UserSystemImpl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\define\struct_base.cpp">
+      <Filter>Common\define</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\define\struct_extern.cpp">
+      <Filter>Common\define</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\AgentUserMgr.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\FirmUserMgr.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\InsititutionUserMgr.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\ManagerUserMgr.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\TradeUserMgr.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

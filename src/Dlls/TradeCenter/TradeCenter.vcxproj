@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Common\define\struct_base.cpp" />
+    <ClCompile Include="..\..\Common\define\struct_extern.cpp" />
+    <ClCompile Include="..\..\Common\define\ystruct_define.cpp" />
+    <ClCompile Include="..\..\Common\utility\asioservice.cpp" />
+    <ClCompile Include="..\..\Common\utility\sync.cpp" />
+    <ClCompile Include="..\..\Common\utility\utility_fun.cpp" />
+    <ClCompile Include="Application\chinafutureservermgr.cpp" />
+    <ClCompile Include="Application\ForbidTradeManager.cpp" />
+    <ClCompile Include="Application\foreignfutureservermgr.cpp" />
+    <ClCompile Include="Application\GlobalDataManager.cpp" />
+    <ClCompile Include="Application\PositionRateManager.cpp" />
+    <ClCompile Include="Application\RiskControlManager.cpp" />
+    <ClCompile Include="Application\servermgrbase.cpp" />
+    <ClCompile Include="Application\SettleManagerThread.cpp" />
+    <ClCompile Include="Application\stockservermgr.cpp" />
+    <ClCompile Include="Application\taskmsg_order_mgr.cpp" />
+    <ClCompile Include="Application\TradeFeeManager.cpp" />
+    <ClCompile Include="Application\taskmsg.cpp" />
+    <ClCompile Include="Application\handler_taskmsg.cpp" />
+    <ClCompile Include="ctrade.cpp" />
+    <ClCompile Include="GlobalLock.cpp" />
+    <ClCompile Include="Handler\positionhandler.cpp" />
+    <ClCompile Include="Handler\orderlistmanager..cpp" />
+    <ClCompile Include="Handler\positionlistmanager.cpp" />
+    <ClCompile Include="Handler\quotehandler.cpp" />
+    <ClCompile Include="Handler\quotelistmanager.cpp" />
+    <ClCompile Include="Handler\tradehandler.cpp" />
+    <ClCompile Include="Handler\orderhandler.cpp" />
+    <ClCompile Include="Handler\tradelistmanager.cpp" />
+    <ClCompile Include="SimulateTrade\SimulateOrde.cpp" />
+    <ClCompile Include="SyncTrade\SyncOrde.cpp" />
+    <ClCompile Include="SyncTrade\TcpListen\TcpCallBack.cpp" />
+    <ClCompile Include="TradeCenter.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Common\define\params_declare.h" />
+    <ClInclude Include="..\..\Common\define\protocol_error.h" />
+    <ClInclude Include="..\..\Common\define\struct_base.h" />
+    <ClInclude Include="..\..\Common\define\struct_declare.h" />
+    <ClInclude Include="..\..\Common\define\struct_extern.h" />
+    <ClInclude Include="..\..\Common\define\ystruct_define.h" />
+    <ClInclude Include="..\..\Common\include\StockApiManager\StockApiManager.h" />
+    <ClInclude Include="..\..\Common\include\TradeCenter\TradeCenter.h" />
+    <ClInclude Include="..\..\Common\utility\asioservice.h" />
+    <ClInclude Include="..\..\Common\utility\command.h" />
+    <ClInclude Include="..\..\Common\utility\dispatcher_core.h" />
+    <ClInclude Include="..\..\Common\utility\instance.h" />
+    <ClInclude Include="..\..\Common\utility\instance_shared_from_this.h" />
+    <ClInclude Include="..\..\Common\utility\pointerdef.h" />
+    <ClInclude Include="..\..\Common\utility\rwmutex.h" />
+    <ClInclude Include="..\..\Common\utility\scopeguard.h" />
+    <ClInclude Include="..\..\Common\utility\sync.h" />
+    <ClInclude Include="..\..\Common\utility\ThisPtrHolder.h" />
+    <ClInclude Include="..\..\Common\utility\thread_core.h" />
+    <ClInclude Include="..\..\Common\utility\timer_queue.h" />
+    <ClInclude Include="..\..\Common\utility\utility_fun.h" />
+    <ClInclude Include="..\..\Common\utility\workqueue.h" />
+    <ClInclude Include="Application\chinafutureservermgr.h" />
+    <ClInclude Include="Application\ForbidTradeManager.h" />
+    <ClInclude Include="Application\foreignfutureservermgr.h" />
+    <ClInclude Include="Application\GlobalDataManager.h" />
+    <ClInclude Include="Application\PositionRateManager.h" />
+    <ClInclude Include="Application\RiskControlManager.h" />
+    <ClInclude Include="Application\servermgrbase.h" />
+    <ClInclude Include="Application\SettleManagerThread.h" />
+    <ClInclude Include="Application\stockservermgr.h" />
+    <ClInclude Include="Application\taskmsg_order_mgr.h" />
+    <ClInclude Include="Application\TradeFeeManager.h" />
+    <ClInclude Include="Application\trade_handler_declare.h" />
+    <ClInclude Include="Application\taskmsg.h" />
+    <ClInclude Include="Application\taskmsg_declare.h" />
+    <ClInclude Include="Application\handler_taskmsg.h" />
+    <ClInclude Include="ctrade.h" />
+    <ClInclude Include="GlobalLock.h" />
+    <ClInclude Include="Handler\positionhandler.h" />
+    <ClInclude Include="Handler\orderlistmanager.h" />
+    <ClInclude Include="Handler\positionlistmanager.h" />
+    <ClInclude Include="Handler\quotehandler.h" />
+    <ClInclude Include="Handler\quotelistmanager.h" />
+    <ClInclude Include="Handler\tradehandler.h" />
+    <ClInclude Include="Handler\orderhandler.h" />
+    <ClInclude Include="Handler\tradelistmanager.h" />
+    <ClInclude Include="SimulateTrade\SimulateOrder.h" />
+    <ClInclude Include="SyncTrade\SyncOrder.h" />
+    <ClInclude Include="SyncTrade\TcpListen\TcpCallBack.h" />
+    <ClInclude Include="SyncTrade\TcpListen\trade_bussness_struct_def.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{838E6DD3-7837-4CDD-A742-830F80D2735E}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>TradeCenter</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120_xp</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120_xp</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120_xp</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120_xp</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(SolutionDir)../Common;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)../Common/lib/$(Platform)$(Configuration);$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)Bin\$(Platform)$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(SolutionDir)../Common;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)../Common/lib/$(Platform)$(Configuration);$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)Bin\$(Platform)$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(SolutionDir)../Common;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)../Common/lib/$(Platform)$(Configuration);$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)Bin\$(Platform)$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(SolutionDir)../Common;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)../Common/lib/$(Platform)$(Configuration);$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)Bin\$(Platform)$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;HX_ITRADE_API_EXPORTS;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>StockApiManager.lib;OperationManager64.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /Y $(OutDir)$(TargetName).dll  $(SolutionDir)..\Common\lib\$(Platform)$(Configuration)
+xcopy /Y $(OutDir)$(TargetName).lib  $(SolutionDir)..\Common\lib\$(Platform)$(Configuration)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32_LEAN_AND_MEAN;WIN32;HX_ITRADE_API_EXPORTS;_DEBUG;_CONSOLE;_LIB;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>false</SDLCheck>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+      <AdditionalIncludeDirectories>c:\ng_tools\3rd_libs\apache-log4cxx-0.10.0\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>StockApiManager.lib;OperationManager.lib;ManagerCenter.lib;log4cxx64d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /Y $(OutDir)$(TargetName).dll  $(SolutionDir)..\Common\lib\$(Platform)$(Configuration)
+xcopy /Y $(OutDir)$(TargetName).lib  $(SolutionDir)..\Common\lib\$(Platform)$(Configuration)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;HX_ITRADE_API_EXPORTS;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>StockApiManager.lib;OperationManager64.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /Y $(OutDir)$(TargetName).dll  $(SolutionDir)..\Common\lib\$(Platform)$(Configuration)
+xcopy /Y $(OutDir)$(TargetName).lib  $(SolutionDir)..\Common\lib\$(Platform)$(Configuration)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32_LEAN_AND_MEAN;WIN32;HX_ITRADE_API_EXPORTS;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>false</SDLCheck>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <AdditionalIncludeDirectories>c:\ng_tools\3rd_libs\apache-log4cxx-0.10.0\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>StockApiManager.lib;OperationManager.lib;ManagerCenter.lib;log4cxx64.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /Y $(OutDir)$(TargetName).dll  $(SolutionDir)..\Common\lib\$(Platform)$(Configuration)
+xcopy /Y $(OutDir)$(TargetName).lib  $(SolutionDir)..\Common\lib\$(Platform)$(Configuration)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

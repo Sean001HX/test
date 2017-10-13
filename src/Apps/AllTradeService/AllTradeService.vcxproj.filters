@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{77e3c580-21e4-478e-af31-a12d4606630c}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{4d7b6b95-3e07-430d-881f-837866865fbd}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Network">
+      <UniqueIdentifier>{edb0c2ba-7e19-425d-9f6e-0dce73a029f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{07b4d3e3-cc79-49cf-b06e-e468110f3398}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetInfo">
+      <UniqueIdentifier>{0bf8679d-bacc-4535-a29a-00d1d03d31c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\utility">
+      <UniqueIdentifier>{cd01dd1e-33b4-4a20-bb51-d2f6b70c9c84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\define">
+      <UniqueIdentifier>{c32ed804-6ffe-40c2-91a3-e18ad559a10e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TLDataApi">
+      <UniqueIdentifier>{750bb5df-91df-4ef6-bd76-de8151e9b8cd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\utility\exception.cpp">
+      <Filter>Common\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\utility\stringhelper.cpp">
+      <Filter>Common\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\reply_message.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="NetInfo\CommMessage.cpp">
+      <Filter>NetInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\utility\sync.cpp">
+      <Filter>Common\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_tcpserver.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_tcpserver.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\fortunethread.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_fortunethread.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_fortunethread.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\TCPImpl.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TCPImpl.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_TCPImpl.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\tcpserver.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\define\communition_struct_serialize.cpp">
+      <Filter>Common\define</Filter>
+    </ClCompile>
+    <ClCompile Include="AsyncQryService.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\utility\utility_fun.cpp">
+      <Filter>Common\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\define\struct_base.cpp">
+      <Filter>Common\define</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\define\struct_extern.cpp">
+      <Filter>Common\define</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\define\CommMsgDefine.cpp">
+      <Filter>Common\define</Filter>
+    </ClCompile>
+    <ClCompile Include="mdl_api_tl.h">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\define\ystruct_define.cpp">
+      <Filter>Common\define</Filter>
+    </ClCompile>
+    <ClCompile Include="CatchMiniDump.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OnlineUserManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\quote_connect.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_quote_connect.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_quote_connect.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Network\reply_message.h">
+      <Filter>Network</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Common\utility\atomicops.h">
+      <Filter>Common\utility</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Common\utility\binstream.h">
+      <Filter>Common\utility</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Common\utility\exception.h">
+      <Filter>Common\utility</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Common\utility\stringhelper.h">
+      <Filter>Common\utility</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Common\utility\sync.h">
+      <Filter>Common\utility</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Common\define\protocol_error.h">
+      <Filter>Common\define</Filter>
+    </CustomBuild>
+    <CustomBuild Include="NetInfo\CommMessage.h">
+      <Filter>NetInfo</Filter>
+    </CustomBuild>
+    <CustomBuild Include="NetInfo\RequestMsgDefine.h">
+      <Filter>NetInfo</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Network\tcpserver.h">
+      <Filter>Network</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Network\fortunethread.h">
+      <Filter>Network</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Network\TCPImpl.h">
+      <Filter>Network</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Network\quote_connect.h">
+      <Filter>Network</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Common\define\net_illustrate.h">
+      <Filter>Common\define</Filter>
+    </ClInclude>
+    <ClInclude Include="NetInfo\commmsg_declare.h">
+      <Filter>NetInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\utility\scopeguard.h">
+      <Filter>Common\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\define\struct_content.h">
+      <Filter>Common\define</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\define\communition_struct_serialize.h">
+      <Filter>Common\define</Filter>
+    </ClInclude>
+    <ClInclude Include="AsyncQryService.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\utility\utility_fun.h">
+      <Filter>Common\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\define\params_declare.h">
+      <Filter>Common\define</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\define\struct_base.h">
+      <Filter>Common\define</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\define\struct_declare.h">
+      <Filter>Common\define</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\define\struct_extern.h">
+      <Filter>Common\define</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\define\CommMsgDefine.h">
+      <Filter>Common\define</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\include\OperationManager\OperationManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\define\reply_message_declare.h">
+      <Filter>Common\define</Filter>
+    </ClInclude>
+    <ClInclude Include="TLDataApi\mdl_szl2_msg.h">
+      <Filter>TLDataApi</Filter>
+    </ClInclude>
+    <ClInclude Include="TLDataApi\mdl_api.h">
+      <Filter>TLDataApi</Filter>
+    </ClInclude>
+    <ClInclude Include="TLDataApi\mdl_api_msg.h">
+      <Filter>TLDataApi</Filter>
+    </ClInclude>
+    <ClInclude Include="TLDataApi\mdl_api_types.h">
+      <Filter>TLDataApi</Filter>
+    </ClInclude>
+    <ClInclude Include="TLDataApi\mdl_bar_msg.h">
+      <Filter>TLDataApi</Filter>
+    </ClInclude>
+    <ClInclude Include="TLDataApi\mdl_cffex_msg.h">
+      <Filter>TLDataApi</Filter>
+    </ClInclude>
+    <ClInclude Include="TLDataApi\mdl_czce_msg.h">
+      <Filter>TLDataApi</Filter>
+    </ClInclude>
+    <ClInclude Include="TLDataApi\mdl_dce_msg.h">
+      <Filter>TLDataApi</Filter>
+    </ClInclude>
+    <ClInclude Include="TLDataApi\mdl_hkex_msg.h">
+      <Filter>TLDataApi</Filter>
+    </ClInclude>
+    <ClInclude Include="TLDataApi\mdl_shfe_msg.h">
+      <Filter>TLDataApi</Filter>
+    </ClInclude>
+    <ClInclude Include="TLDataApi\mdl_shl1_msg.h">
+      <Filter>TLDataApi</Filter>
+    </ClInclude>
+    <ClInclude Include="TLDataApi\mdl_shl2_msg.h">
+      <Filter>TLDataApi</Filter>
+    </ClInclude>
+    <ClInclude Include="TLDataApi\mdl_swg_msg.h">
+      <Filter>TLDataApi</Filter>
+    </ClInclude>
+    <ClInclude Include="TLDataApi\mdl_sys_msg.h">
+      <Filter>TLDataApi</Filter>
+    </ClInclude>
+    <ClInclude Include="TLDataApi\mdl_szl1_msg.h">
+      <Filter>TLDataApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\define\ystruct_define.h">
+      <Filter>Common\define</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\dataClient.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="CatchMiniDump.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OnlineUserManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,6 @@
+[DB]
+host=127.0.0.1
+port=3306
+login_name=root
+password=
+db_name=hx_trade_bussness

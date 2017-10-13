@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Handler">
+      <UniqueIdentifier>{e3f617d9-f4b9-4fba-b23b-ecc727fcf1db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{a3665dc1-0026-4a78-b1a5-0aecc0554c0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\define">
+      <UniqueIdentifier>{fad0c365-fb0a-45bf-b425-783d9a70a994}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application">
+      <UniqueIdentifier>{62d1dbfa-4e71-4a6f-a88e-f3e30612395d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\include">
+      <UniqueIdentifier>{0fe9f59e-78bf-4ecb-a52f-8716547aa02f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\utility_fun">
+      <UniqueIdentifier>{abbee4cf-4783-4e16-8732-a2177f6a65b3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Application\user_class_declare.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Handler\accounthandler.h">
+      <Filter>Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="Handler\ContractHandler.h">
+      <Filter>Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="Handler\ExchangeHandler.h">
+      <Filter>Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="UserManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\include\ManagerCenter\ManagerCenter.h">
+      <Filter>Common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Handler\SortIndex.h">
+      <Filter>Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\define\struct_extern.h">
+      <Filter>Common\define</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\define\struct_base.h">
+      <Filter>Common\define</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\utility\utility_fun.h">
+      <Filter>Common\utility_fun</Filter>
+    </ClInclude>
+    <ClInclude Include="CommodityManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\define\ystruct_define.h">
+      <Filter>Common\define</Filter>
+    </ClInclude>
+    <ClInclude Include="Handler\MoneyHandler.h">
+      <Filter>Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="Application\CustomCommissionManager.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Application\BlackWhiteManager.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Application\CustomStockManager.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Handler\accounthandler.cpp">
+      <Filter>Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="Handler\ContractHandler.cpp">
+      <Filter>Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="Handler\ExchangeHandler.cpp">
+      <Filter>Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="UserManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ManagerCenter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Handler\SortIndex.cpp">
+      <Filter>Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\define\struct_extern.cpp">
+      <Filter>Common\define</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\define\struct_base.cpp">
+      <Filter>Common\define</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\utility\utility_fun.cpp">
+      <Filter>Common\utility_fun</Filter>
+    </ClCompile>
+    <ClCompile Include="CommodityManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\define\ystruct_define.cpp">
+      <Filter>Common\define</Filter>
+    </ClCompile>
+    <ClCompile Include="Handler\MoneyHandler.cpp">
+      <Filter>Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\CustomCommissionManager.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\BlackWhiteManager.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\CustomStockManager.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

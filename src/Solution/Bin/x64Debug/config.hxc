@@ -1,0 +1,8 @@
+[Quote]
+host=120.55.166.73
+port=9013
+log4cxxkey=4e3919b48a263d1b8d8be13dfb16c114d0532e91d2c0c4caaf84b4668f75da3a
+url=/api/equity/getEqu.json?field=&listStatusCD=&secID=&ticker=&equTypeCD=A
+[Trade]
+port=65511
+settleTime=18:20:20

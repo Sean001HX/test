@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="define">
+      <UniqueIdentifier>{bbf87fbd-9ace-42bf-997c-15b23572bb81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utility">
+      <UniqueIdentifier>{10a066c4-d341-4e64-a4d5-96176407eef4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ApiServerMgrImp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="asm_mutex.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\define\ystruct_define.cpp">
+      <Filter>define</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\define\struct_base.cpp">
+      <Filter>define</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\define\struct_extern.cpp">
+      <Filter>define</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\utility\utility_fun.cpp">
+      <Filter>utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\utility\sync.cpp">
+      <Filter>utility</Filter>
+    </ClCompile>
+    <ClCompile Include="StockApiManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ApiServerMgrImp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asm_mutex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\define\stock_api\trade_bussness_struct_def.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\define\stock_api\tcas_def.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\define\ystruct_define.h">
+      <Filter>define</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\define\struct_base.h">
+      <Filter>define</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\define\struct_extern.h">
+      <Filter>define</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\utility\utility_fun.h">
+      <Filter>utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\utility\sync.h">
+      <Filter>utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\include\StockApiManager\StockApiManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,191 @@
+#ifndef _STRUCT_CONTENT_H
+#define _STRUCT_CONTENT_H
+
+// 包头  // 命令码 cmdcode
+// 内容【【（mc）来源】，(tc)【错误码】，内容】  content
+// 校验码(暂留)
+// 包尾  §END§
+
+#define	CMDCODE					"cmdcode"				// 命令码
+#define	RESOURCE				"resource"				// 来源mc/pc...
+#define	ERRCODE					"errcode"				// 错误码
+#define	CONTENT					"content"				// 发送内容
+
+////////// 结构体字段 ///////////
+#define	IPADDRESS				"ipaddress"				// 地址
+#define	IPPORT					"ipport"				// 端口
+#define	LOGINNAME				"loginname"				// 登录名
+#define	CREATELOGINNAME			"createloginname"		// 创建者登录名
+#define	PASSWORD				"password"				// 密码
+#define	ACCOUNTNAME				"accountname"			// 账户名
+#define	TELNO					"telno"					// 手机号
+#define	SERIALNO				"serialno"				// 序号
+
+#define	COMMISSIONRATE			"commissionrate"		// 佣金比例
+#define	PROCOMMRATE				"procommrate"			// 分成比例
+#define	AUDITSTATUS				"auditstatus"			// 审核状态
+#define	INSTITUTIONTYPE			"institutiontype"		// 机构类型,模拟/实盘
+#define	APPROVALLOGINNAME		"approvalloginname"		// 审核者登录名
+#define	OPERATIONLOGINNAME		"operationloginname"	// 操作者登录名
+
+#define	POPULARLINK				"popularlink"			// 推广链接
+#define	QRCODE					"QRcode"				// 二维码
+#define	ROLESNAME				"rolesname"				// 角色名
+#define	ROLEID					"roleid"				// 角色id
+#define	ROLETYPE				"roletype"				// 角色类型
+#define	FUNCTIONID				"functionid"			// 功能id
+#define	USERID					"userid"				// 用户id
+#define	BEGINTIME				"begintime"				// 开始时间
+#define	ENDTIME					"endtime"				// 结束时间
+#define	INFOMATCHFEE			"infomatchfee"			// 信息撮合费
+#define	COUNTERFEE				"counterfee"			// 手续费
+#define	SUMCOMMISSION			"sumcommission"			// 累计佣金
+#define	COMMISSIONCHANGE		"commissionchange"		// 佣金变动
+#define	CHANGETIME				"changetime"			// 变动时间
+#define	CHANGETYPE				"changetype"			// 变动类型
+#define CHANGEREASON            "changereason"          // 变动理由
+#define	EARNINGSBALANCE			"earningsbalance"		// 审核拒绝
+#define	SUMLEVELFEE				"sumlevelfee"			// 盈利余额
+#define	PROCOMMCHANGE			"procommchange"			// 分成变动
+
+#define	INFERIORFUND			"inferiorfund"			// 劣后资金
+#define	PRIORITYFUND			"priorityfund"			// 优先资金
+#define	UPPERFUNDNAME			"upperfundname"			// 上级资金账户
+#define	UPPERMANAGER			"uppermanager"			// 所属上线
+#define	WARNINGLINE				"warningline"			// 警告线
+#define	FORCELINE				"forceline"				// 强平线
+#define	LIMITLINE				"limitline"				// 限仓线
+#define	LEVERAGERATE			"leveragerate"			// 杠杆比例
+#define	ISHEDFEORNOT			"ishedfeornot"			// 是否对冲
+#define	BUSINESSTYPE			"businesstype"			// 业务类型,出入金方式
+#define	AMOUNTMONEY				"amountmoney"			// 出入金金额
+
+
+#define	REMARKSINFO				"remarksinfo"			// 备注信息
+#define	STOCKCODE				"stockcode"				// 股票代码
+#define	STOCKNAME				"stockname"				// 股票名称
+#define	POSITIONPRICE			"positionprice"			// 持仓价格
+#define	POSITIONQTY 			"positionqty"			// 持仓数量
+#define	ISSELLQTY				"issellqty"				// 可卖数量
+#define FROZENNUMBER            "frozennumber"          // 冻结数量
+
+#define	POSITIONCOST			"positioncost"			// 持仓成本
+#define	FLOATPRICE				"floatprice"			// 浮动盈亏
+#define	OPENTIME				"opentime"				// 开仓时间
+#define	DEALNO					"dealno"				// 成交编号
+#define	TRADEDIR				"tradedir"				// 交易方向
+#define	DEALPRICE				"dealprice"				// 成交价格
+#define	DEALQTY					"dealqty"				// 成交数量
+#define	DEALTIME				"dealtime"				// 成交时间
+#define	STAMPFEE				"stampfee"				// 印花费
+#define	TRANSFERFEE				"transferfee"			// 过户费
+#define	SECURITIESCOMPANY		"securitiescompany"		// 证券公司
+#define	FUNDBALANCE				"fundbalance"			// 资金余额
+#define	REGDATE					"regdate"				// 注册日期
+#define	LOGINIP					"loginip"				// 登录ip	
+#define	LOGINTIME				"logintime"				// 登陆时间
+#define	MACADDRESS				"macaddress"			// 登录地址
+#define	CONFIGUREFUNDAMOUNT		"configurefundamount"	// 配资资金金额
+#define	STAMPFEERATE			"stampfeerate"			// 印花税
+#define	TRANSFERTAXRATE			"transfertaxrate"		// 过户税
+#define	ONCELOWESTFEE			"oncelowestfee"			// 每笔最低费用
+#define	MATCHFEERATERATE		"matchfeeraterate"		// 信息撮合费
+#define	STATUS					"status"				// 状态
+#define	RISKPROJECT				"riskproject"			// 风控项目
+#define	OPERATIONTYPE			"operationtype"			// 操作员类型
+#define	RISKEXPLAIN				"riskexplain"			// 风控说明
+#define	SWITCHFLAG				"switchflag"			// 开关
+#define	POSITIONRATE			"positionrate"			// 持仓比例
+#define	ILLUSTRATE				"illustrate"			// 说明
+#define	TRADEAMOUNT				"tradeamount"			// 成交金额
+#define	TOTALASSETS				"totalassets"			// 总资产
+#define	OPENCOST				"opencost"				// 开仓成本
+#define	POSITIONMARKETVALUE	    "positionmarketvalue"	// 持仓市值
+#define	AVAILABLEFUNDS			"availablefunds"		// 可用资金
+#define AVAILABLEGETFUNDS       "availablegetfunds"     // 可取资金
+#define	SELFONLYFUND			"selfonlyfund"			// 自有资金净值
+
+#define	HAPPENAMOUNT			"happenamount"			// 发生金额
+#define	SECURITIESCODE			"securitiescode"		// 证券代码
+#define	SECURITIESNAME			"securitiesname"		// 证券名称
+#define	DEALAVGPRICE			"dealavgprice"			// 成交均价
+#define	STOCKLEFTAMOUNT			"stockleftamount"		// 股票余额
+#define	COMMISSION				"commission"			// 佣金
+#define	UPPERINSTITUTION		"upperinstitution"		// 所属机构
+#define	SUMPLRATE				"sumplrate"				// 总盈亏率
+#define	WARNINGTYPE				"warningtype"			// 预警类型
+#define	WARNINGTIME				"warningtime"			// 预警时间
+#define	WARNINGTEXT				"warningtext"			// 预警内容
+#define	ORDERSTATUS				"orderstatus"			// 订单状态
+#define	INMONEYFUND				"inMoneyfund"			// 入金资金
+#define	BANKNAME				"bankname"				// 银行名称	
+#define	BANKCARD				"bankcard"				// 银行卡号
+#define	COMMITIME				"commitime"				// 提交时间
+#define	ISAPPROVAL				"isapproval"			// 是否审核
+#define	APPROVALTIME			"approvaltime"			// 审核时间
+#define	OUTMONEYFUND			"outmoneyfund"			// 出金金额
+#define	ORDERPICE				"orderpice"				// 委托价格
+#define	ORDERTYPE				"ordertype"				// 委托类型
+#define	ORDERVOLUME				"ordervolume"			// 委托手数
+#define	ORDERID					"orderid"				// 委托编号
+#define	ORDERDERECTION			"orderderection"		// 委托方向
+#define	ORDERMODE				"ordermode"			    // 委托模式
+#define	ORDERRef				"orderref"				// 委托编号
+#define ORDERTIME               "ordertime"             // 委托时间
+#define ORDERLASTUPDATETIME     "updateTime"            // 最后更新时间
+#define	CURRENCYRATE			"currency_rate"			// 币种汇率
+#define CANCELORDERNUMBER       "cancelvolume"          // 撤单数量
+#define ORDERFROZENFUND         "orderfrozenfund"       // 订单冻结总资金
+#define FROZENFUND              "frozenfund"            // 冻结资金
+#define FUNDCHANGEVALUE         "fundchangevalue"       // 资金变动
+#define RISERATIO               "riseratio"             // 涨幅
+#define LASTNEWPRICE            "lastPrice"             // 最新价
+#define UPANDDOWN               "upanddown"             // 涨跌
+#define NOWVOLUME               "nowvolume"             // 现手
+#define ALLVOLUME               "allvolume"             // 总手
+#define YESTERCLOSE             "preCloPrice"           // 昨收
+#define OPENCEREMONY            "openPrice"             // 开盘
+#define HIGHESTPRICE            "highPrice"             // 最高
+#define LOWESTPRICE             "lowPrice"              // 最低
+#define BUYPRICE                "buyprice"              // 买价
+#define SELLPRICE               "sellprice"             // 卖价
+#define BUYVOLUME               "buyvolume"             // 买量
+#define SELLVOLUME              "sellvolume"            // 卖量
+#define AMPLITUDE               "amplitude"             // 振幅
+#define QUANTITYRATIO           "quantityratio"         // 量比
+#define APPINTRATIO_            "appintRatio_"          // 委比
+#define CHANGEHAND              "changeHand"            // 换手
+
+#define ALLTOTALVALUE           "allTotalValue"         // 总市值
+#define ASKVOLUME1              "askVolume1"            // 卖一手数量
+#define ASKVOLUME2              "askVolume2"            // 卖二手数量
+#define ASKVOLUME3              "askVolume3"            // 卖三手数量
+#define ASKVOLUME4			    "askVolume4"            // 卖四手数量
+#define ASKVOLUME5			    "askVolume5"            // 卖五手数量
+#define BIDVOLUME1              "bidVolume1"			// 买一手数量
+#define BIDVOLUME2              "bidVolume2"			// 买二手数量
+#define BIDVOLUME3				"bidVolume3"		    // 买三手数量
+#define BIDVOLUME4				"bidVolume4"			// 买四手数量
+#define BIDVOLUME5				"bidVolume4"			// 买五手数量
+
+#define	ASKPRICE1               "askPrice1"				// 卖一手价格
+#define	ASKPRICE2               "askPrice2"				// 卖二手价格
+#define	ASKPRICE3               "askPrice3"		        // 卖三手价格
+#define	ASKPRICE4  		        "askPrice4"				// 卖四手价格
+#define	ASKPRICE5  			    "askPrice5"				// 卖五手价格
+#define	BIDPRICE1               "bidPrice1"				// 买一手价格
+#define	BIDPRICE2               "bidPrice2"				// 买二手价格
+#define	BIDPRICE3				"bidPrice3"				// 买三手价格
+#define	BIDPRICE4  				"bidPrice4"				// 买四手价格
+#define	BIDPRICE5  				"bidPrice5"				// 买五手价格
+#define EXCHANGE                "exchange"              // 汇率
+#define INDEXID                 "indexID"               // 指数
+#define INDEXNAME               "indexName"             // 指数名
+#define TYPE                    "type"                  // 股票或指数
+#define SECURITYID              "securityID"            // 股票代码
+#define SECURITYNAME            "securityName"          // 股票名称
+#define XSHG                    "XSHG"                  // 上证
+#define XSHE                    "XSHE"                  // 沪深
+#define INDEXQUOTE              "IndexQuote"            // 指数行情
+#define STOCKQUOTE              "StockQuote"            // 股票行情
+#endif

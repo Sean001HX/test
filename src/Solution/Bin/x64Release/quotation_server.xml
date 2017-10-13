@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<!--<param name="ConversionPattern" value="[tid %t] %d{ISO8601} [%-5p] %c{2\} (%l) - %m%n" />-->
+<log4j:configuration xmlns:log4j='http://jakarta.apache.org/log4j/' >
+  <appender name="Console" class="org.apache.log4j.ConsoleAppender">
+    <layout class="org.apache.log4j.PatternLayout">
+      <param name="ConversionPattern" value="[tid %t] %d{ISO8601} [%-5p] [%c] (%l) - %m%n" />
+    </layout>
+    <filter class="org.apache.log4j.varia.LevelRangeFilter">
+      <param name="levelMin" value="debug" />
+      <param name="levelMax" value="fatal" />
+      <param name="AcceptOnMatch" value="true" />
+    </filter>
+  </appender>
+  
+  <appender name="ng_log_appender_roll_by_size" class="org.apache.log4j.RollingFileAppender">
+    <param name="File" value="ng_log/hx_api_service.log" />
+    <param name="MaxFileSize" value="5MB"/>
+    <param name="MaxBackupIndex" value="10"/>
+    <layout class="org.apache.log4j.PatternLayout">
+      <param name="ConversionPattern"
+         value="[tid %t] %d{ISO8601} [%-5p] [%c] - %m%n" />
+    </layout>
+    <filter class="org.apache.log4j.varia.LevelRangeFilter">
+            <param name="LevelMax" value="fatal" />
+            <param name="LevelMin" value="trace" />
+            <param name="AcceptOnMatch" value="true" />
+     </filter>
+  </appender>
+    
+  <appender name="ng_log_appender_every_hour" class="org.apache.log4j.DailyRollingFileAppender">
+    <param name="File" value="ng_log/hx_api_service.log" />
+    <param name="DatePattern" value="'_'yyyy-MM-dd-HH'.log'"/>
+    <layout class="org.apache.log4j.PatternLayout">
+      <param name="ConversionPattern" value="[%t] %d{ISO8601} [%-5p] [%c] - %m%n" />
+    </layout>
+    <filter class="org.apache.log4j.varia.LevelRangeFilter">
+            <param name="LevelMax" value="fatal" />
+            <param name="LevelMin" value="trace" />
+            <param name="AcceptOnMatch" value="true" />
+     </filter>
+  </appender>
+  
+  <!--appender name = "ng_output_debug_log" class="org.apache.log4j.OutputDebugStringAppender">
+    <layout class="org.apache.log4j.PatternLayout">
+      <param name="ConversionPattern" value="[tid %t] %d{ISO8601} [%-5p] [%c] (%l) - %m%n" />
+    </layout>
+    <filter class="org.apache.log4j.varia.LevelRangeFilter">
+            <param name="LevelMax" value="fatal" />
+            <param name="LevelMin" value="trace" />
+            <param name="AcceptOnMatch" value="true" />
+     </filter>
+  </appender-->
+
+  <!--异步记录。使用了 AsyncAppender 的logger要在main结束前释放，否则报线程销毁错误 -->
+  <appender name="async_ng_log" class="org.apache.log4j.AsyncAppender">    
+     <param name="BufferSize" value="512"/>
+     <appender-ref ref="ng_log_appender_every_hour"/>
+     <!--<appender-ref ref="ng_output_debug_log"/> -->
+  </appender>
+  
+  <logger name="foo" additivity="false">
+    <!--需要异地调试已发布程序时，将这里的value值修改为debug-->
+    <level value="trace"/>
+    <appender-ref ref="async_ng_log" />
+  </logger>
+  
+  <!-- 设置接收所有输出的通道 -->
+  <root>
+    <priority value ="trace"/>
+    <appender-ref ref="async_ng_log"/> ><!-- 与前面的通道id相对应 -->
+  </root>
+</log4j:configuration>

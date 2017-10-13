@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{158ca022-2e08-4476-935c-dc4bd29fb245}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\include">
+      <UniqueIdentifier>{3225b83f-73ef-477d-bd41-ec221209f0b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\define">
+      <UniqueIdentifier>{15b6a263-9fdf-4388-9a82-21076b31c7a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\utility">
+      <UniqueIdentifier>{89be938f-ea35-4892-a533-efd2694ce52c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AuthorityControlImpl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\utility\scopeguard.h">
+      <Filter>Common\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\utility\instance.h">
+      <Filter>Common\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\define\struct_extern.h">
+      <Filter>Common\define</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\define\params_declare.h">
+      <Filter>Common\define</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\define\protocol_error.h">
+      <Filter>Common\define</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\define\struct_base.h">
+      <Filter>Common\define</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\define\struct_declare.h">
+      <Filter>Common\define</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\include\AuthorityControl\AuthorityControl.h">
+      <Filter>Common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\utility\utility_fun.h">
+      <Filter>Common\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\define\ystruct_define.h">
+      <Filter>Common\define</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\define\authorityState_def.h">
+      <Filter>Common\define</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AuthorityControl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AuthorityControlImpl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\define\struct_base.cpp">
+      <Filter>Common\define</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\define\struct_extern.cpp">
+      <Filter>Common\define</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\utility\utility_fun.cpp">
+      <Filter>Common\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\define\ystruct_define.cpp">
+      <Filter>Common\define</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
